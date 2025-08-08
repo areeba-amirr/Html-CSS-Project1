@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="Sub-header">
+     <nav>
+       <a href="index.html"><img src="eduford_img/logo.png" alt=""></a>
+       <div class="nav-links" id="nav-links">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+        </ul>-
+       </div>
+       <i class="fa fa-bars" onclick="showMenu()"></i>
+     </nav>
+    <h1>About US</h1>
+    </section>
+              <section class="footer">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque labore esse aliquam! Velit, magni laborum ducimus modi <br> impedit nemo fugiat iure laudantium rerum vel labore aliquid ex eius id quia.</p>
+          <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+          <p></p>
+        </section>
+        <!-- ***About Us Content** -->
+         <section class="aboutUs">
+            <div class="row">
+                <div class="ab-col">
+                    <h1>We Are The World's Largest University</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit animi itaque in totam tenetur molestias possimus similique tempora necessitatibus dolores aperiam a illum facilis ipsa, nostrum repellendus soluta voluptatibus dolore!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae assumenda vitae delectus eaque, ipsa, dolorum facilis deserunt deleniti sequi nesciunt dignissimos vero nobis ad iure quis quisquam odit. Ullam, eum.
+                    </p>
+                    <a href="" class="hero-btn red-btn">Explore Now</a>
+                </div>
+                <div class="ab-col">
+                   <img src="eduford_img/about.jpg" alt="">
+                </div>
+            </div>
+         </section>
+<script>
+    //Toggle Menu
+    var navLinks = document.getElementById("nav-links");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right= "-200px"
+    }
+</script>
+
+</body>
+</html>
