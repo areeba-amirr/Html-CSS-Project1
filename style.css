@@ -346,3 +346,68 @@ h3{
     .red-btn:hover{
     color: white;
 }
+/* **Blog Page** */
+.bg-content{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+.bg-left{
+    flex-basis: 65%;
+}
+.bg-left img{
+    width: 100%;
+}
+.bg-left h2{
+    color: #222;
+    font-weight: 600;
+    margin: 30px 0;
+}
+.bg-left p{
+    color: #999;
+    padding: 0;
+}
+.bg-right{
+    flex-basis: 32%;
+}
+.bg-right h3{
+    background: #f44336;
+    color: #fff;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.bg-right div{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 8px;
+    color: #555;
+
+}
+.commment-box{
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+.commment-box h3{
+    text-align: left;
+}
+.c-form input, .c-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+}
+.c-form button{
+    margin: 10px 0;
+}
+@media(max-width:700px){
+    .Sub-header h1{
+    font-size: 24px ;
+    }
+}
