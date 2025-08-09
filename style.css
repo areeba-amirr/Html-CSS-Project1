@@ -296,9 +296,9 @@ h3{
     padding: 30px 0;
 }
 .footer h2{
- margin-bottom: 25px;
- margin-top: 20px;
- font-weight: 600;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
 }
 .icons .fa-brands{
     color: #133b4e;
@@ -320,10 +320,10 @@ h3{
     margin-top: 100px;
 }
 .aboutUs{
-width: 80%;
-margin: auto;
-padding-top: 80px;
-padding-bottom: 50px;
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
 }
 .ab-col{
     flex-basis: 48%;
@@ -343,6 +343,6 @@ padding-bottom: 50px;
     background: transparent;
     color: #f44336;
 }
-.red-btn:hover{
-color: white;
+    .red-btn:hover{
+    color: white;
 }
